@@ -1,13 +1,19 @@
-import '@/app/globals.css';
+import "@/app/globals.css";
 
-import AppHeader from '@/components/AppHeader';
+import AppHeader from "@/components/AppHeader";
 
 export const metadata = {
-  title : 'NextLevel Food',
-  description : 'Delicious meals, shared by a food-loving community.',
+  title: "NextLevel Food",
+  description: "Delicious meals, shared by a food-loving community.",
 };
 
-export default function RootLayout({children}) {
-  return (<html lang = "en"><body><AppHeader />{children}</body>
-    </html>);
+export default function RootLayout({ children }) {
+  return (
+    <html lang="en">
+      <body>
+        <AppHeader />
+        {children}
+      </body>
+    </html>
+  );
 }

@@ -1,8 +1,8 @@
-import MealItem from '../MealItem';
+import MealItem from "../MealItem";
 
-import styles from './styles.module.css';
+import styles from "./styles.module.css";
 
-const Meals = ({meals}) => {
+const Meals = ({ meals }) => {
   return (
     <ul className={styles.meals}>
       {meals.map((meal) => (
