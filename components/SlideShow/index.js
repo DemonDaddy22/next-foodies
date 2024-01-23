@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect, useState } from 'react';
+import {useEffect, useState} from 'react';
 import Image from 'next/image';
 import burgerImg from '@/assets/burger.jpg';
 import curryImg from '@/assets/curry.jpg';
@@ -12,13 +12,13 @@ import tomatoSaladImg from '@/assets/tomato-salad.jpg';
 import classes from './styles.module.css';
 
 const Images = [
-  { image: burgerImg, alt: 'A delicious, juicy burger' },
-  { image: curryImg, alt: 'A delicious, spicy curry' },
-  { image: dumplingsImg, alt: 'Steamed dumplings' },
-  { image: macncheeseImg, alt: 'Mac and cheese' },
-  { image: pizzaImg, alt: 'A delicious pizza' },
-  { image: schnitzelImg, alt: 'A delicious schnitzel' },
-  { image: tomatoSaladImg, alt: 'A delicious tomato salad' },
+  {image : burgerImg, alt : 'A delicious, juicy burger'},
+  {image : curryImg, alt : 'A delicious, spicy curry'},
+  {image : dumplingsImg, alt : 'Steamed dumplings'},
+  {image : macncheeseImg, alt : 'Mac and cheese'},
+  {image : pizzaImg, alt : 'A delicious pizza'},
+  {image : schnitzelImg, alt : 'A delicious schnitzel'},
+  {image : tomatoSaladImg, alt : 'A delicious tomato salad'},
 ];
 
 const SlideShow = () => {

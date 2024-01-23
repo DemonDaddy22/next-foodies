@@ -1,9 +1,11 @@
-import Link from 'next/link';
-import Image from 'next/image';
-import styles from './styles.module.css';
 import logo from '@/assets/logo.png';
 import AppHeaderBackground from '@/components/AppHeaderBackground';
+import Image from 'next/image';
+import Link from 'next/link';
+
 import NavLink from '../NavLink';
+
+import styles from './styles.module.css';
 
 const AppHeader = () => {
   return (

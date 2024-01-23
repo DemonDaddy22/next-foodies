@@ -1,6 +1,7 @@
-import Link from 'next/link';
-import styles from './page.module.css';
 import SlideShow from '@/components/SlideShow';
+import Link from 'next/link';
+
+import styles from './page.module.css';
 
 const Home = () => {
   return (
