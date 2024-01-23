@@ -1,7 +1,7 @@
 const Meal = ({ params }) => {
   return (
     <main>
-      <h1>Meal {params.slug}</h1>
+      <h1>Meal{params.slug}</h1>
     </main>
   );
 };

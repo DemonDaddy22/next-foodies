@@ -1,5 +1,6 @@
-import MealItem from '../MealItem';
-import styles from './styles.module.css';
+import MealItem from "../MealItem";
+
+import styles from "./styles.module.css";
 
 const Meals = ({ meals }) => {
   return (
