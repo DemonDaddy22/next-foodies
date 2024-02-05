@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 
-import classes from "./meal-item.module.css";
+import classes from "./styles.module.css";
 
 const MealItem = ({ title, slug, image, summary, creator }) => {
   return (
@@ -12,7 +12,7 @@ const MealItem = ({ title, slug, image, summary, creator }) => {
         </div>
         <div className={classes.headerText}>
           <h2>{title}</h2>
-          <p>by{creator}</p>
+          <p>by {creator}</p>
         </div>
       </header>
       <div className={classes.content}>

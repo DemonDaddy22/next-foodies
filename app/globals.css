@@ -2,6 +2,7 @@
 
 * {
   box-sizing: border-box;
+  transition: all 0.15s;
 }
 
 html {
@@ -15,7 +16,7 @@ body {
 
 .not-found,
 .error {
-  margin-top: 5rem;
+  margin-top: 6rem;
   text-align: center;
 }
 
